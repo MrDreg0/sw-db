@@ -39,7 +39,7 @@ const PlanetList = withSwapiService(
 
 const mapStarshipMethodsToProps = (swapiService) => {
     return {
-        getData: swapiService.getAllStarship
+        getData: swapiService.getAllStarships
     }
 }
 
