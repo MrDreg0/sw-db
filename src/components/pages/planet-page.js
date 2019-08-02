@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 import Row from '../row';
 import ErrorBountry from '../error-bountry';
-import './people-page.css';
-import {
-    PersonDetails,
-    PersonList,
-} from '../sw-components';
+import { PlanetDetails, PlanetList } from '../sw-components';
 
-export default class PeoplePage extends Component {
+export default class PlanetPage extends Component {
     state = {
-        selectedItem: 1,
+        selectedItem: 2,
     };
 
     onItemSelected = (selectedItem) => {
@@ -18,10 +14,10 @@ export default class PeoplePage extends Component {
 
     render() {
         const itemList = (
-            <PersonList onItemSelected={this.onItemSelected} />
+            <PlanetList onItemSelected={this.onItemSelected} />
         );
         const itemDetails = (
-            <PersonDetails itemId={this.state.selectedItem} />
+            <PlanetDetails itemId={this.state.selectedItem} />
         )
 
         return (
