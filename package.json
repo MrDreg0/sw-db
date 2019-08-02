@@ -2,6 +2,11 @@
   "name": "sw-db",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "MrDreg0",
+    "email": "drak0on@ya.ru"
+  },
+  "homepage": "http://mrdreg0.github.io/sw-db",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
